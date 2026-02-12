@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Smooth theme transitions */
+body {
+    transition: background-color 300ms ease-in-out;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #645df2;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(62, 56, 172, 0.912);
+    cursor: pointer;
+}
+
+/* Dark mode scrollbar with orange */
+.dark ::-webkit-scrollbar-thumb {
+    background: #EA580C;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #F97316;
+    cursor: pointer;
+}
